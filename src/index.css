@@ -74,7 +74,16 @@ textarea:focus {
   background-color: #ededed;
   cursor: pointer;
 }
-
+.save1 {
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+.save1:hover {
+  background-color: #ededed;
+  cursor: pointer;
+}
 .delete-icon {
   cursor: pointer;
 }
@@ -95,4 +104,10 @@ textarea:focus {
 
 .search-input:focus {
   outline: none;
+}
+
+.move-right {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
 }
